@@ -123,3 +123,31 @@ Tools that score, rewrite, or generate content to improve AI citation likelihood
 - [google-ai-search-optimization](https://github.com/deepakness/google-ai-search-optimization) - Markdown agent skill operationalizing Google's published guidance for AI Overviews and AI Mode, covering structured data, E-E-A-T signals, passage indexing, and featured snippet optimization - useful as a workflow reference for content teams without a coding background. (★~128)
 
 ---
+
+## SEO Research and Data Platforms
+
+Crawlers, keyword tools, and data platforms that supply the underlying signals AEO decisions depend on.
+
+- [open-seo](https://github.com/every-app/open-seo) - TypeScript open-source SEO platform providing keyword research, rank tracking, competitor analysis, backlink analysis, and site audits; exposes all functionality via an MCP interface for AI agent workflows; self-hostable via Docker or Cloudflare; powered by DataForSEO APIs with optional Google Search Console integration; MIT. (★3.1K)
+- [firecrawl](https://github.com/firecrawl/firecrawl) - TypeScript library converting any URL to clean LLM-ready Markdown or structured data with dynamic page support, batch crawling, and site mapping - the de facto standard content extraction layer for competitive research, knowledge base construction, and SERP data pipelines. (★30K+)
+- [gpt-researcher](https://github.com/assafelovic/gpt-researcher) - Python autonomous research agent that plans searches, scrapes, and synthesizes cited reports - the standard tool for building citation-worthy original research assets, the content format empirical AEO data shows dominates AI citations. (★27.9K)
+- [seonaut](https://github.com/stjudewashere/seonaut) - Go SEO audit tool with an interactive Apache ECharts dashboard detecting broken links, redirect chains, missing or duplicate meta tags, and heading order issues; categorizes findings by critical/high/low severity; self-hostable via Docker. (★734)
+- [python-for-seo](https://github.com/HasData/python-for-seo) - Python collection of seven specialized research tools: SERP Similarity Matrix, Content Gap Analyzer, AI Overview Monitor, Keyword Clustering via embeddings, rank tracking, and structured data validators.
+- [seo-audits-toolkit](https://github.com/StanGirard/seo-audits-toolkit) - Python audit toolkit combining Lighthouse score audits, SERP rank tracking, keyword extraction, sitemap generation, header/link/image extraction, and security header checking; Docker support.
+
+- [16 Months of GSC Data as a Vector Database](https://metehan.ai/blog/i-turned-16-months-of-google-search-console-data-into-a-vector-database-heres-what-i-learned) - Implementation guide: export GSC data, embed via Gemini, store in ChromaDB, query with natural language via Claude or Grok; demonstrates that vector search surfaces semantic query clusters SQL cannot find, while SQL remains necessary for exact metric filtering - establishes the hybrid SQL + vector DB pattern as the right measurement stack for AEO practitioners working from existing GSC data.
+
+---
+
+## Agent Skill Packages
+
+Pre-built skill sets for AI coding assistants (Claude Code, Cursor, Codex) exposing SEO and GEO capabilities as natural-language agent commands.
+
+- [claude-seo](https://github.com/AgriciDaniel/claude-seo) - Python universal SEO skill for Claude Code with 25+ sub-skills and 18 specialist agents covering technical SEO, E-E-A-T, Schema.org (30+ types), GEO/AEO (/seo geo sub-skill), backlink analysis, local SEO, semantic clustering, and e-commerce; SPA-aware via Playwright; integrates Google Search Console, PageSpeed Insights, GA4, and optional DataForSEO/Firecrawl MCP extensions; MIT. (★9.9K)
+- [seo-geo-claude-skills](https://github.com/aaron-he-zhu/seo-geo-claude-skills) - Python collection of 20 SEO and GEO skills compatible with Claude Code, Cursor, Codex, and 35+ AI agent platforms - broadest platform compatibility in this category. (★2.3K)
+- [NotFair](https://github.com/nowork-studio/NotFair) - TypeScript Claude Code skills package covering SEO, GEO, Google Ads, and Meta Ads management via agent-native commands; for teams wanting cross-channel marketing coverage in a single package. (★3K)
+- [codex-seo](https://github.com/AgriciDaniel/codex-seo) - Python Codex-first suite with 26 end-to-end workflows and 24 TOML agents covering technical audits, content optimization, reporting, and AEO/GEO checks; designed for autonomous operation in Codex and Claude Code environments. (★322)
+- [recomby-geo](https://github.com/ViryaZheng/recomby-geo) - Python GEO-specific skill package combined with curated agent configuration lists; multi-platform support. (★522)
+- [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) - Python skill suite with 16 specialized sub-skills, 10 specialist agents, and 88 optional utility scripts as evidence collectors producing structured SEO reports and action plans; compatible with Claude Code, Codex, Cursor, Windsurf, and Cline.
+
+---
