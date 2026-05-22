@@ -151,3 +151,23 @@ Pre-built skill sets for AI coding assistants (Claude Code, Cursor, Codex) expos
 - [Agentic-SEO-Skill](https://github.com/Bhanunamikaze/Agentic-SEO-Skill) - Python skill suite with 16 specialized sub-skills, 10 specialist agents, and 88 optional utility scripts as evidence collectors producing structured SEO reports and action plans; compatible with Claude Code, Codex, Cursor, Windsurf, and Cline.
 
 ---
+
+## Measurement and Calculators
+
+Tools for statistically valid AEO measurement: sample size planning, variance accounting, and longitudinal engine tracking.
+
+- [stanford-crfm/helm](https://github.com/stanford-crfm/helm) - Stanford CRFM's open evaluation framework covering 100+ scenarios and 50+ metrics with calibrated uncertainty; the statistical infrastructure for building rigorous AEO evaluation pipelines that produce confidence intervals rather than point estimates. Python, Apache 2.0.
+
+- [DAIR.AI Prompt Engineering Guide](https://www.promptingguide.ai) - Elvis Saravia's comprehensive open guide covering prompting techniques, RAG architectures, chain-of-thought, and LLM evaluation; the practical reference for engineers building prompt-driven AEO optimization loops, automated scoring pipelines, and content rewriting workflows.
+
+- [Discovered Labs: LLM Eval Calculator](https://discoveredlabs.com/tools/llm-eval-calculator) - Free tool that calculates statistically required sample sizes for measuring brand mention rates across AI platforms; uniquely accounts for both between-question variance (different prompts yield different mention rates, e.g. 60% vs. 20%) and within-question variance (LLM stochasticity across runs for the same prompt); users set confidence level (90/95/99%), margin of error (±0.5–5%), and resamples per prompt K (1–20); outputs unique prompts required, total API calls needed, and time estimates.
+- [gego](https://github.com/AI2HU/gego) - Go scheduler that runs prompts across multiple LLM providers (OpenAI, Anthropic, Ollama, Google, Perplexity, custom endpoints) and stores longitudinal visibility results in hybrid SQLite/MongoDB - the open-source option for teams running their own multi-engine brand visibility studies over time.
+
+---
+
+## Related Lists
+
+- [awesome-aeo-seo](https://github.com/discoveredlabs/awesome-aeo-seo) - Research papers, architecture references, and measurement methodology for AEO and GEO.
+- [awesome-aeo-seo-agents](https://github.com/discoveredlabs/awesome-aeo-seo-agents) - Agent frameworks, MCP servers, and agentic workflow packages for AI search optimization.
+
+---
