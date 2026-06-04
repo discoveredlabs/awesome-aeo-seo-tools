@@ -171,3 +171,13 @@ Tools for statistically valid AEO measurement: sample size planning, variance ac
 - [awesome-aeo-seo-agents](https://github.com/discoveredlabs/awesome-aeo-seo-agents) - Agent frameworks, MCP servers, and agentic workflow packages for AI search optimization.
 
 ---
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Discovered Labs](https://discoveredlabs.com) has waived all copyright and related or neighboring rights to this work.
