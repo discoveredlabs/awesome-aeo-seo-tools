@@ -1,7 +1,7 @@
 README.md
-  s_f42c33bebed437::t_49e626c5ded97e 1-5
+  s_f42c33bebed437::t_d45e80c4eef511 1-5
 license
-  s_abedbdc6954aa5::t_6333e271580516 1-53
+  s_f42c33bebed437::t_991c2daeb6536c 1-53
 ---
 {
   "schema_version": "authorship/3.0.0",
@@ -9,14 +9,6 @@ license
   "base_commit_sha": "2db410d737faef765c2029a0ceedbd487972fab5",
   "prompts": {},
   "sessions": {
-    "s_abedbdc6954aa5": {
-      "agent_id": {
-        "tool": "claude",
-        "id": "ac8bed5c-50cf-473a-bf9c-b2e554139c65",
-        "model": "claude-sonnet-4-6"
-      },
-      "human_author": "benkmoore <ben.karl.moore@gmail.com>"
-    },
     "s_f42c33bebed437": {
       "agent_id": {
         "tool": "claude",
