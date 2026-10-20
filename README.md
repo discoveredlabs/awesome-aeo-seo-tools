@@ -93,6 +93,8 @@ Self-hosted platforms and crawlers for tracking citation and mention rates acros
 
 - [Discovered Labs: AI Visibility Tracker](https://discoveredlabs.com/technology/ai-visibility-tracker) - Managed monitoring platform testing real buyer questions sourced from Google Search Console, support tickets, call transcripts, and subreddits across ChatGPT, Claude, Perplexity, Google AI Overviews, and Gemini every five days; tracks citation rate, mention rate, average ranking position, share of voice, citation source breakdown (Reddit, reviews, YouTube, blogs), brand perception scoring, and competitor benchmarking; statistically rigorous - each prompt runs multiple times with 95% credible intervals and movements only register after three consecutive significant runs to eliminate false signals from LLM stochasticity.
 
+- [Traclux](https://github.com/ZaneLau/traclux-probe) - Self-hosted Java and Nuxt GEO workbench that turns six-dimensional CSSM-HI user states into probes, executes them against a configured model, and returns saved answers with brand-analysis views. (Java, ★0)
+
 ---
 
 ## Technical AEO Infrastructure
