@@ -136,6 +136,7 @@ Crawlers, keyword tools, and data platforms that supply the underlying signals A
 - [seo-audits-toolkit](https://github.com/StanGirard/seo-audits-toolkit) - Python audit toolkit combining Lighthouse score audits, SERP rank tracking, keyword extraction, sitemap generation, header/link/image extraction, and security header checking; Docker support.
 
 - [16 Months of GSC Data as a Vector Database](https://metehan.ai/blog/i-turned-16-months-of-google-search-console-data-into-a-vector-database-heres-what-i-learned) - Implementation guide: export GSC data, embed via Gemini, store in ChromaDB, query with natural language via Claude or Grok; demonstrates that vector search surfaces semantic query clusters SQL cannot find, while SQL remains necessary for exact metric filtering - establishes the hybrid SQL + vector DB pattern as the right measurement stack for AEO practitioners working from existing GSC data.
+- [Mode VC WebMCP & Backlink Lens](https://modevc.com/tools/webmcp-backlink-lens) - Open-source Manifest V3 Chrome Extension and W3C WebMCP inspector for auditing dofollow/nofollow links and `.well-known/mcp.json` manifests.
 
 ---
 
