@@ -75,6 +75,7 @@ Multi-signal audits returning composite scores or prioritized remediation lists 
 - [eGEOagents](https://github.com/mverab/eGEOagents) - Python agentic workflows for structured data optimization, llms.txt generation, content rewriting, and AI citation tracking across ChatGPT, Perplexity, Claude, and Gemini. (★~120)
 - [aeo-audit](https://github.com/AINYC/aeo-audit) - Python AEO audit covering structured data, schema markup, content clarity, and E-E-A-T signals; outputs colored terminal, JSON, or Markdown reports with optional Lighthouse integration and geographic signal analysis.
 - [agentimization](https://github.com/antlio/agentimization) - TypeScript CLI that produces a structured GEO/AEO readiness report with per-signal breakdowns scoring how easily ChatGPT, Perplexity, and Gemini can find, understand, and cite a site.
+- [ai-visibility-scan](https://github.com/foxscar-git-hub/ai-visibility-scan) - TypeScript CLI and library that reports per-crawler robots.txt block/allow status for six named AI bots (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, CCBot, Bytespider), checks for server-rendered content and JSON-LD, and auto-generates a starter llms.txt from the page's own title, meta description, and sitemap when none exists; outputs a 0-100 score via CLI (`npx ai-visibility-scan`) or as an npm library. (TypeScript)
 
 ---
 
