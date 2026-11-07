@@ -75,6 +75,7 @@ Multi-signal audits returning composite scores or prioritized remediation lists 
 - [eGEOagents](https://github.com/mverab/eGEOagents) - Python agentic workflows for structured data optimization, llms.txt generation, content rewriting, and AI citation tracking across ChatGPT, Perplexity, Claude, and Gemini. (★~120)
 - [aeo-audit](https://github.com/AINYC/aeo-audit) - Python AEO audit covering structured data, schema markup, content clarity, and E-E-A-T signals; outputs colored terminal, JSON, or Markdown reports with optional Lighthouse integration and geographic signal analysis.
 - [agentimization](https://github.com/antlio/agentimization) - TypeScript CLI that produces a structured GEO/AEO readiness report with per-signal breakdowns scoring how easily ChatGPT, Perplexity, and Gemini can find, understand, and cite a site.
+- [aeorank](https://github.com/aizaloapp/aeorank) - Python/TypeScript open 62-rule GEO/AEO diagnostic specification, MCP server (`aeorank-geo-mcp` on npm and PyPI), and Claude Code/Cursor agent skill auditing AI crawler directives in `robots.txt`, `/llms.txt`, RFC 9727 `api-catalog`, JSON-LD `sameAs` entity graphs, and 500-character answer-first passages across 9 weighted dimensions; MIT.
 
 ---
 
